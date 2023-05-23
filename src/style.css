@@ -14,7 +14,33 @@ label {
 }
 
 .container {
+    /* display: grid; */
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     color: white;
+    width: 900px;
+    height: 583px;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 5px;
+    /* grid-template-columns: repeat(5, 1fr) ; */
+}
+
+.container .pair {
+    display: flex;
+    width: 120px;
+    background-color: black;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.value {
+    color: yellow;
+}
+
+main {
+    display: flex;
+    justify-content: center;
 }
